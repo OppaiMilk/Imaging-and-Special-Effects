@@ -65,12 +65,6 @@ def overlay_image_on_frames(frame_folder, image_path, output_video_path, frame_r
 # Example usage
 frame_folder = "Video Frame/Aft"  # Folder containing the extracted frames
 image_path = "Pic/Scene1/2.png"  # Path to the overlay image
-output_video_path = "Pic/Scene/Scene1.mp4"  # Path to save the final video
+output_video_path = "Processed Pic/Scene1.mp4"  # Path to save the final video
 
-# First, generate the video without audio
 overlay_image_on_frames(frame_folder, image_path, output_video_path, frame_rate=30)
-
-# Then, add the audio to the generated video
-# audio_path = "Pic/Scene1/Wind.mp4"  # Path to the MP3 audio file
-# final_output_path = "Processed Pic/Scene1.mp4"  # Path to save the final video with audio
-# add_audio_to_video(output_video_path, audio_path, final_output_path)
