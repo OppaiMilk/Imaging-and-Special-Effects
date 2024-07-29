@@ -1,1 +1,1 @@
-image_path = "../Pic/Scene1/2.png"  # Path to the overlay image
+add_audio_to_video(video_path, audio_path, output_path, fade_duration=3, audio_start_frac=0, audio_end_frac=1)
