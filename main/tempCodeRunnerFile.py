@@ -1,0 +1,1 @@
+image_path = "../Pic/Scene1/2.png"  # Path to the overlay image
